@@ -1,0 +1,18 @@
+<h1>Phone Price Prediction</h1>
+<form method="POST" action="/predict/">
+    {% csrf_token %}
+    <label>Rating (out of 5):</label><input type="text" name="rating"><br>
+    <label>Number of Ratings:</label><input type="text" name="num_ratings"><br>
+    <label>Company Name:</label>
+    <select name="company">
+        <option value="POCO">POCO</option>
+        <option value="realme">realme</option>
+        <!-- Add more companies -->
+    </select><br>
+    <label>RAM Size (GB):</label><input type="text" name="ram_size"><br>
+    <label>Storage Size (GB):</label><input type="text" name="storage_size"><br>
+    <label>Battery Size (mAh):</label><input type="text" name="battery_size"><br>
+    <button type="submit">Predict Price</button>
+
+    <p>The predicted price of the phone is: <strong>{{ prediction }} CAD</strong></p>
+</form>
