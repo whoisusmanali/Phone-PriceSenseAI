@@ -1,0 +1,306 @@
+.center-heading-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 100vh;           /* Full viewport height */
+}
+
+/* Prediction Page Styles */
+.prediction-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.prediction-result {
+    margin-top: 20px;
+}
+
+.prediction-result p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.amazon-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #FF9900; /* Amazon's orange color */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.amazon-link:hover {
+    background-color: #cc7a00; /* Slightly darker orange for hover effect */
+}
+
+/* Contact Us Page Styles */
+.contact-us-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contact-image {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.contact-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    color: #4CAF50; /* Light green color */
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.contact-info .profiles, .contact-info .projects {
+    margin-top: 20px;
+}
+
+.profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Light green color */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.profile-button:hover {
+    background-color: #45a049; /* Slightly darker green for hover effect */
+}
+
+
+/* About Us Page Styles */
+.about-us-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-us-container h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+}
+
+.mission-section, .our-values, .team-section {
+    margin-bottom: 20px;
+}
+
+.mission-section h2, .our-values h2, .team-section h2 {
+    font-size: 28px;
+    color: #4CAF50; /* Green color */
+}
+
+.mission-section p, .team-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.our-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.our-values ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.our-values ul li strong {
+    color: #4CAF50; /* Green color */
+}
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #c2f0c2; /* Light green background */
+    color: #333;
+    padding: 20px;
+    position: relative;
+    font-family: 'Baguet Script', cursive; /* Baguet Script font */
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-size: 32px; /* Increased font size */
+    margin: 0;
+    text-align: left;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a.button {
+    background-color: white;
+    color: #4CAF50; /* Green color for text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #4CAF50;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a.button:hover {
+    background-color: lightgreen; /* Darker green on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #e0f0e0; /* Light green background */
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif; /* Normal font style */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-description {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Form styles */
+.form-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    max-width: 600px;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Prediction Section */
+.prediction-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.prediction-box {
+    display: inline-block;
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-label {
+    font-size: 18px;
+    color: #333;
+}
+
+.prediction-result {
+    font-size: 24px;
+    color: #007BFF; /* Blue color for price */
+    font-weight: bold;
+    margin-top: 10px;
+}
