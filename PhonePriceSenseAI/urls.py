@@ -20,5 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('PriceSenseAI.urls')),
-    path('predict/', include('PriceSenseAI.urls')),
+    #path('predict/', include('PriceSenseAI.urls')),
 ]
