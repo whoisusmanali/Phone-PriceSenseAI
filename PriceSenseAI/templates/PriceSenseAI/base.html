@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Phone_PriceSenseAI{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="project-title">Phone_PriceSenseAI</h1>
+            <nav>
+                <ul>
+                    <li><a class="button" href="{% url 'predict_price' %}">Home</a></li>
+                    <li><a class="button" href="{% url 'about_us' %}">About Us</a></li>
+                    <li><a class="button" href="{% url 'contact_us' %}">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        {% block content %}
+        <div class="prediction-section">
+            {% block prediction %}
+            {% endblock %}
+        </div>
+        {% endblock %}
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2024 Phone_PriceSenseAI. </p> <p>All rights reserved.</p>
+                <p>Developed by Usman Ali</p>
+                <p>whoisusmanali@gmail.com | +1-226-951-4829</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
