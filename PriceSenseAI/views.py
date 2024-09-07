@@ -33,3 +33,9 @@ def predict_price(request):
         return render(request, 'PriceSenseAI/index.html', {'prediction': predicted_price})
     else:
         return render(request, 'PriceSenseAI/index.html')
+
+def about_us(request):
+    return render(request, 'PriceSenseAI/about_us.html')
+
+def contact_us(request):
+    return render(request, 'PriceSenseAI/contact_us.html')
