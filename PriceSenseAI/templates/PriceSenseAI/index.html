@@ -1,5 +1,3 @@
-
-
 {% extends 'PriceSenseAI/base.html' %}
 
 {% block title %}Phone Price Prediction{% endblock %}
@@ -8,10 +6,6 @@
 <div class="form-container">
     <form method="POST" action="{% url 'predict_price' %}">
         {% csrf_token %}
-        <label>Rating (out of 5):</label>
-        <input type="text" name="rating" required><br>
-        <label>Number of Ratings:</label>
-        <input type="text" name="num_ratings" required><br>
         <label>Company Name:</label>
         <select name="company" required>
             <option value="POCO">POCO</option>
@@ -39,6 +33,10 @@
         <input type="text" name="storage_size" required><br>
         <label>Battery Size (mAh):</label>
         <input type="text" name="battery_size" required><br>
+        <label>Rating (out of 5):</label>
+        <input type="text" name="rating" required><br>
+        <label>Number of Ratings:</label>
+        <input type="text" name="num_ratings" required><br>
         <button type="submit">Predict Price</button>
     </form>
 

@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 
 # Load the model (place the correct model path here)
-model = joblib.load('/Users/usmanali/Uwindsor/AI/PhonePriceSenseAI/Pickle files/FlipCart_mobile_model(XG).pkl')
+model = joblib.load('Pickle files/FlipCart_mobile_model(XG).pkl')
 
 # Label encoder dictionary for 'Company Name'
 company_encoder = {'POCO': 0, 'realme': 1, 'SAMSUNG': 2, 'OPPO': 3, 'Google': 4, 'vivo': 5,
