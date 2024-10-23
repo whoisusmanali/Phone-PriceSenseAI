@@ -1,5 +1,6 @@
 # Phone-PriceSenseAI
-
+Watch the Video Explanation for that Project: [HomeValueAi YouTube](https://www.youtube.com/watch?v=hCG6yPP3w2s)</br>
+Live Demo for that Project: [Demo](phone-pricesenseai-bfbyfzf9evehebfv.canadacentral-01.azurewebsites.net)</br></br>
 **Phone-PriceSenseAI** is a comprehensive web application that predicts mobile phone prices using machine learning models based on real-time data scraped from FlipKart. This project involves data extraction, analysis, model training, and web deployment, utilizing advanced technologies such as Django for web development and AWS EC2 for production deployment.
 
 ## Table of Contents
