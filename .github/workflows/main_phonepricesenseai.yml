@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'PhonePriceSenseAI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1A801A6031D54C269D632AA8943D44A9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C85335284026461A9B90DAF571D76F4C }}
